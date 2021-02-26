@@ -1,0 +1,26 @@
+@media (max-width: 1540px) {
+	.logo {
+		img {
+			width: 114px;
+		}
+	}
+	.menu {
+		padding-top: 10px;
+		span {
+			margin-bottom: 14px;
+		}
+	}
+	.header__title {
+		font-size: 170px;
+		line-height: 130px;
+	}
+	.header__search {
+		padding: 15px 0;
+	}
+	.header__date span {
+		margin-bottom: 20px;
+	}
+  .header__arrows{
+    left: 160px;
+  }
+}
