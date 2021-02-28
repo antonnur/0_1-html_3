@@ -21,7 +21,7 @@
 	line-height: 156px;
 	font-weight: 800;
 	opacity: 0.07;
-	max-width: 467px;
+	// max-width: 467px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -38,6 +38,19 @@
 		padding-top: 6px;
 		margin-bottom: 20px;
 		text-transform: capitalize;
+	}
+}
+.menu__burger {
+	position: absolute;
+	right: 26px;
+	top: 38px;
+	width: 40px;
+	z-index: 5;
+	&-line {
+		height: 4px;
+		margin-bottom: 6px;
+		border-radius: 4px;
+		background-color: $green;
 	}
 }
 .header__date {
@@ -96,9 +109,9 @@
 .slider-item__info-suptitle {
 	margin-bottom: 5px;
 }
-.slider-item__info-suptext {
+// .slider-item__info-suptext {
 	// margin-bottom: 8px;
-}
+// }
 .slider-item__info-title {
 	font-weight: 800;
 	font-size: 80px;
